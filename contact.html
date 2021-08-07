@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG | Contact</title>
+    <link rel="icon" href="logo-title.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        /* CSS for back-ground form contact */
+        #contact {
+            background-image: url(garment_home_img/wall_about.jpg);
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="logo">
+        <div class="minilogo">
+            <img src="garment_home_img/GG-logos_white 2.png" alt="">
+        </div>
+        <div class="container">
+
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" style="color: white;">Home</a></li>
+                        <li><a href="product.html" target="blank" style="color: white;">Product</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                       <img id="logo-img" src="garment_home_img/logo_garment.png" alt="">
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="compare.html" style="color: white;">Compare</a></li>
+                        <li><a href="contact.html" style="color: white;">Contact us</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+
+        </div>
+
+    </div>
+    <!-- Navbar -->
+
+    
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <div class="container">
+
+            <!-- Google map API -->
+            <div class="row">
+                <div class="col-md-7 col-sm-7">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325247592187!2d106.66410831480873!3d10.786382261959323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIEPDoWNoIE3huqFuZyBUaMOhbmcgVMOhbSwgUGjGsOG7nW5nIDExLCBRdeG6rW4gMywgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1616127000553!5m2!1svi!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <!-- Google map API -->
+
+                <!-- Form of examples -->
+                <div class="col-md-5 col-sm-5">
+                    <h4><strong>Get In Touch With Us</strong></h4>
+                    <p class="glyphicon glyphicon-envelope" style="color: purple; font-size: 2rem;"><i> Email:
+                            GraciousGarments@gmail.com </i></p><br>
+                    <p class="glyphicon glyphicon-map-marker" style="color: purple; font-size: 2rem;"><i> Address: 590
+                            Cach Mang Thang
+                            Tam, Phuong 11, Quan 3, HCM City, Vietnam</i></p><br>
+                    <p class="glyphicon glyphicon-phone" style="color: purple; font-size: 2rem;"><i> Phone:
+                            09000000007</i></p><br>
+
+                    <!-- Form of contact -->
+                    <form id="form-contact">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="fullname" id="fullname"
+                                placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="mail" id="mail" placeholder="What's your e-mail?"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" name="" value="" placeholder="Your phone number">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+                        </div>
+
+                        <!-- button -->
+                        <button class="btn btn-warning" type="submit" name="button">
+                            <i aria-hidden="true">Submit</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of contact -->
+
+    <!-- Footer -->
+    <footer style="margin-top: 0;">
+        <div class="container">
+
+            <div class="col-md-4">
+                <p>Copyright &copy; group3 2021. All right reserved.</p><br>
+
+            </div>
+            <div class="col-md-4"> <img src="garment_home_img/logo_garment.png" alt=""></div>
+            <div class="col-md-3">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- script of slide show -->
+    <script>
+        //The slide show continue sliding even when hover
+        $('#mainsponsor').carousel({
+            pause: false
+        })
+
+        //script to check form contact
+        jQuery(function ($) {
+            $("#form-contact").submit(function (e) {
+                e.preventDefault();
+
+                //Check Name
+                let Fullname = $("#fullname").val().trim();
+                let ge = /^[a-z ]{3,}$/ig
+                if (ge.test(Fullname) == false) {
+                    alert("Your name is invalid ! Your name must not contain any number or special characters.");
+                    $("#fullname").focus();
+                    return false;
+                }
+
+                let Email = $("#mail").val().trim();
+                let te = /^[\w\-\.]+@([\w\-]+\.)+[\w\-]{2,3}$/g
+                if (te.test(Email) == false) {
+                    alert("Your e-mail is invalid ! Your e-mail must follow this format xxx@xxx.xxx.");
+                    $("#mail").focus();
+                    return false;
+                }
+
+                alert("Thank you for your contact, we will reply you soon.");
+
+            });
+        });
+
+    </script>
+    <!-- end of script -->
+</body>
+
+</html>

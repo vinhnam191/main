@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG | Product Compare</title>
+    <link rel="icon" href="logo-title.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Navbar and Footer css -->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- File json and javascript -->
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="js/compare3-json.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="logo">
+        <div class="minilogo">
+            <img src="garment_home_img/GG-logos_white 2.png" alt="">
+        </div>
+        <div class="container">
+
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" style="color: white;">Home</a></li>
+                        <li><a href="product.html" target="blank" style="color: white;">Product</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <img id="logo-img" src="garment_home_img/logo_garment.png" alt="">
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="compare.html" style="color: white;">Compare</a></li>
+                        <li><a href="contact.html" style="color: white;">Contact us</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+
+        </div>
+
+    </div>
+    <!-- Navbar -->
+
+     <!-- Sponsored -->
+     <div class="vien">
+        <div>
+            <p>Sponsored by</p>
+        </div>
+    </div>
+    <!-- Sponsored -->
+
+    <!-- Main sponsor slideshow -->
+    <header>
+        <div id="mainsponsor" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="container">
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="garment_home_img/h&m.png">
+                    </div>
+                    <div class="item">
+                        <img src="garment_home_img/gucci.png">
+                    </div>
+                    <div class="item">
+                        <img src="garment_home_img/balencia logo 2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="garment_home_img/Versace_logo.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="garment_home_img/hermes-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main sponsor slideshow -->
+
+    <!-- Đường viền -->
+    <div class="vien">
+        <div>
+            <p>Gracious Garment</p>
+        </div>
+    </div>
+    <!-- Đường viền -->
+
+    <!-- Compare -->
+    <section>
+        <div style="background-image: url(garment_home_img/compare-wall.png); background-size: 100%; color: white;" 
+        class="container-fluid">    
+            <div class="page-header">
+                <h1 style="text-align: center; font-size: 40px;">Product Comparison</h1>
+            </div>
+    
+            <!-- product-list panel -->
+            <div class="row" id="body-data">
+                
+            </div>
+            <!-- end of product-list panel -->
+    
+    
+            <!--preview panel-->
+            <div class="panel-body  w3-center">
+                <div class="row w3-card-4 w3-light-grey w3-round-large w3-border comparePanle w3-margin-top">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-6 w3-margin-top">
+                            <h4>Added for comparison</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 w3-margin-top">  
+                            <button class="btn btn-danger cmprBtn" disabled>Compare</button>
+                        </div>
+                    </div>
+                    <div class="row titleMargin comparePan">
+                    </div>
+                </div>
+            </div>
+            <!--end of preview panel-->
+    
+    
+            <!-- comparision popup-->
+            <div id="id01" class="w3-animate-zoom w3-white w3-modal modPos">
+                <div class="container">
+                    <a onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn closeBtn">×</a>
+                </div>
+                <div class="row contentPop w3-margin-top">
+                </div>
+    
+            </div>
+            <!--end of comparision popup-->
+    
+    
+            <!--  warning model  -->
+            <div id="WarningModal" class="modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color: cadetblue;">
+                            <h4 class="modal-title"><span> ⚠ </span> Error</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Maximum of Three products are allowed for comparision</h3>
+                        </div>
+    
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  end of warning model  -->
+        </div>
+
+    </section>
+    <!-- End of compare -->
+
+     <!-- Back to top button -->
+     <button id="myBtn" onclick="topFunction()">
+        <img src="garment_home_img/button_ontop.png" alt="">
+    </button>
+    <!-- Back to top button -->
+  
+    <!-- Footer -->
+    <footer style="margin-top: 0;">
+        <div class="container">
+
+            <div class="col-md-4">
+                <p>Copyright &copy; group3 2021. All right reserved.</p><br>
+
+            </div>
+            <div class="col-md-4"> <img src="garment_home_img/logo_garment.png" alt=""></div>
+            <div class="col-md-3">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- script of slide show -->
+    <script>
+        //The slide show continue sliding even when hover
+        $('#mainsponsor').carousel({
+            pause: false
+        })
+
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        //When the user scrolls down 40px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        //When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- end of script -->
+
+</body>
+
+</html>
