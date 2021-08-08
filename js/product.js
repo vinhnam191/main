@@ -16,18 +16,6 @@ $(document).ready(function () {
         fill_data(subdata);
 
     })
-
-    // // script for category Gender
-    $("input[type=checkbox]").click(function () {
-
-        let cats = $("#chk-clo:checked").map(function () { return $(this).val() }).toArray().toString();
-
-        let subdata = (cats.length == 0) ? data : data.filter(item => cats.search(item.cat) >= 0);
-
-        fill_data(subdata);
-
-    });
-
   
 
     //lap trinh su kien click filter

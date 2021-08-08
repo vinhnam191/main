@@ -2,7 +2,7 @@
     {
         "title": "Look 1",
         "id": "p1",
-        "price": "1999%",
+        "price": "$1999",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Male",
@@ -15,7 +15,7 @@
     {
         "title": "Look 2",
         "id": "p2",
-        "price": "2549$",
+        "price": "$2549",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Male",
@@ -28,7 +28,7 @@
     {
         "title": "Look 3",
         "id": "p3",
-        "price": "2300$",
+        "price": "$2300",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Male",
@@ -41,7 +41,7 @@
     {
         "title": "Look 4",
         "id": "p4",
-        "price": "1999$",
+        "price": "$1999",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Male",
@@ -54,7 +54,7 @@
     {
         "title": "Look 5",
         "id": "p5",
-        "price": "1999$",
+        "price": "$1999",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Male",
@@ -67,7 +67,7 @@
     {
         "title": "Look 6",
         "id": "p6",
-        "price": "1499$",
+        "price": "$1499",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Female",
@@ -80,7 +80,7 @@
     {
         "title": "Look 7",
         "id": "p7",
-        "price": "1999$",
+        "price": "$1999",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Female",
@@ -93,7 +93,7 @@
     {
         "title": "Look 8",
         "id": "p8",
-        "price": "1700$",
+        "price": "$1700",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Female",
@@ -119,7 +119,7 @@
     {
         "title": "Look 10",
         "id": "p10",
-        "price": "1999$",
+        "price": "$1999",
         "origin": "Italy",
         "brand": "Gucci",
         "gender":"Female",
@@ -351,7 +351,7 @@
         "image2":"balen-7-back.png"
     },
     {
-        "title": "Swimsuit",
+        "title": "Skirt",
         "id": "p28",
         "price": "€88",
         "origin": "Spain",
@@ -364,7 +364,7 @@
         "image2":"balen-8-back.png"
     },
     {
-        "title": "Swimsuit",
+        "title": "Skirt",
         "id": "p29",
         "price": "€88",
         "origin": "Spain",
