@@ -70,8 +70,32 @@
         .column{
             margin-left: 3%;
         }
-
-        /* Responsive layout - when the screen is at 768px wide, make the two columns stack on top of each other instead of next to each other */
+        @media (max-width: 1536px){
+            .column{
+                margin-left: 7%;
+            }
+        }
+        @media (max-width: 1440px){
+            .column{
+                margin-left: 4%;
+            }
+        }
+        @media (max-width: 1366px){
+            .column{
+                margin-left: 1%;
+            }
+        }
+        @media (max-width: 1080px){
+            .column{
+                margin-left: 4%;
+            }
+            .card{
+                width: 180px;
+            }
+            .card h1{
+                font-size: 12px;
+            }
+        }
         @media (max-width: 1024px){
             .column{
                 margin-left: 3%;
@@ -95,7 +119,7 @@
                 width: 120px;
             }
             .card h1{
-                font-size: 15px;
+                font-size: 18px;
             }
             footer{
                 text-align: center;
