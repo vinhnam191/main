@@ -8,7 +8,7 @@ Project title: Gracious Garments
 
 ========> Group 3 <=========
 
-3 collaborators: 
+4 collaborators: 
 
                  Le Vinh Nam Student1316201
 
@@ -22,7 +22,7 @@ Project title: Gracious Garments
 
 ============================
 
-eProject documentation at 
+eProject documentation at https://github.com/vinhnam191/main/tree/main/document
 
 
 ============================
